@@ -28,19 +28,3 @@ def authenticated_client_fav(auth_client):
 @pytest.fixture()
 def authenticated_airport_api(base_url, authenticated_client_fav):
     return AirportPage(base_url, authenticated_client_fav.session)
-
-
-
-
-
-# @pytest.fixture(scope="session")
-# def authorized_session(base_url):
-#     session = requests.Session()
-#     session.headers.update({"Accept": "application/json"})
-#
-#     auth = AuthClient(base_url, session)
-#     token = auth.get_token("apitestairports@mailinator.com", "APItestDummy")
-#
-#     session.headers.update({"Authorization": f"Bearer {token}"})
-#     return session
-
