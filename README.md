@@ -223,7 +223,7 @@ pytest -k "test_get_airports_success"</pre>
   </tbody>
 </table>
 
-# Author
+## Author
 Siti Aisyah<br>
 [LinkedIn](https://www.linkedin.com/in/saisyah)
 <div align="right"><a href="#table-of-contents">Back to Top</a></div>
