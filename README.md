@@ -147,12 +147,6 @@ pytest -k "test_get_airports_success"</pre>
 <li>Create favorite without note → Patch with note → Delete</li>
 <li>Full CRUD operations on favorites</li>
 
-<h3>Catalogue/Product Tests (test_catalogue.py)</h3>
-<li>Product listing verification</li>
-<li>Product name and price validation</li>
-<li>Product sorting functionality</li>
-<li>Product detail page navigation</li>
-<li>Add to cart from catalogue page</li>
 <div align="right"><a href="#table-of-contents">Back to Top</a></div>
 
 ## API Endpoints Tested
