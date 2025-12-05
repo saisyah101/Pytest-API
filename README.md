@@ -13,11 +13,11 @@ A comprehensive API test automation framework for the [AirportGap](https://airpo
 - [Author](#author)
 
 ## Overview
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 This project demonstrates API testing practices using the AirportGap public API. The framework follows the Page Object Model pattern adapted for API testing, ensuring maintainable and scalable test code. It includes comprehensive test coverage for positive scenarios, negative scenarios, and end-to-end workflows.
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
+
 
 ## Features
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 <li>Page Object Model for APIs: clean separation of API endpoints and test logic</li>
 <li>Comprehensive Test Coverage: positive, negative, and E2E test scenarios</li>
 <li>Authentication Handling: token-based authentication with session management</li>
@@ -26,11 +26,11 @@ This project demonstrates API testing practices using the AirportGap public API.
 <li>RESTful API Testing: GET, POST, PATCH, DELETE methods</li>
 <li>Response Validation: status codes, response structure, and data validation</li>
 <li>Session Management: persistent session handling with requests library</li>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 
 
 
 ## Project Structure
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 <pre>
 Pytest-API/
 ├── tests/
@@ -46,17 +46,19 @@ Pytest-API/
 ├── .gitignore
 └── README.md
 </pre>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
+
 
 ## Prerequisites
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 <h4>Before running this project, ensure you have the following installed:</h4>
 
 <li> Python 3.8+ </li>
 <li> pip (Python package manager) </li>
 <li> Git </li>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
+
 
 ## Installation
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 <h3>1. Clone the repository</h3>
 <pre>bash<br>
 git clone https://github.com/saisyah101/Pytest-API.git 
@@ -77,6 +79,8 @@ source venv/bin/activate</pre>
 pip install pytest 
 pip install requests 
 pip install pytest-html</pre>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
+
                          
 
 
@@ -91,7 +95,7 @@ pytest</pre>
 # Positive tests only
 pytest tests/test_api/test_airportgap_positive.py<br>
 # # Negative tests only 
-pytest tests/test_api/test_airportgap_negative.py /<br>
+pytest tests/test_api/test_airportgap_negative.py<br>
 # End-to-end tests only 
 pytest tests/test_api/test_airportgap_e2e.py</pre>
 
@@ -111,10 +115,10 @@ pytest --html=report.html --self-contained-html</pre>
 <h3>Run specific test by name</h3>
 <pre>bash<br>
 pytest -k "test_get_airports_success"</pre>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 
 
 ## Test Coverage
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 <h3>Positive Test Scenarios</h3>
 <h3>Airport Endpoints (test_airportgap_positive.py)</h3>
 <li>Get all airports successfully</li>
@@ -149,9 +153,9 @@ pytest -k "test_get_airports_success"</pre>
 <li>Product sorting functionality</li>
 <li>Product detail page navigation</li>
 <li>Add to cart from catalogue page</li>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 
 ## API Endpoints Tested
-<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 <h3>Base URL</h3>
 <pre>https://airportgap.com/api</pre>
 
@@ -222,6 +226,7 @@ pytest -k "test_get_airports_success"</pre>
     </tr>
   </tbody>
 </table>
+<div align="right"><a href="#table-of-contents">Back to Top</a></div>
 
 ## Author
 Siti Aisyah<br>
